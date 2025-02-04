@@ -10,10 +10,10 @@ fun main() {
             .get()
     println(doc.title())
 
-    val quotes: Elements = doc.select(".sc-2aegk7-2.bzpNIu")
+    val quotes: Elements = doc.select(".sc-14uz67c-0.ccmjFA")
 
     for (quote in quotes) {
-        println("\n${quote.text()}\n")
+        println("\n${quote.text()}")
 
     }
 }
